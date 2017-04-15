@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img\chuizi.ico" type="image/x-icon"/>
+    <title>我的购物车 - Smartisan</title>
+    <link href="css\Smartisan_shop.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css\nav_car.css">
+    <link rel="stylesheet" href="css\footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/block.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/white-hide.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <style type="text/css">
+    	.up{
+    		margin-top: 30px;
+    	}
+    </style>
+  </head>
+
+  <body>
+
+    <!-- 导航栏 -->
+    <nav>
+      <div class="black">
+            <div class="black-main">
+                <h1>
+                    <div>
+                      <img id="logo" src="img\logo.png"/>
+                    </div>
+                </h1>
+                <ul class="customer">
+                    <li>
+                      <i class="fa fa-user fa-lg" aria-hidden="true">
+
+                      </i>
+                    </li>
+                    <li><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                        <div id="count">
+                          <a href="..\Personal\Personal.html">
+                            <img id="customer_logo" src="img\person_mini.png"/>
+                          </a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="page-top-list">
+                    <li><a href="..\Mainpage\index.html" class="a-active">在线商城</a></li>
+                    <li><a href="#">Smartisan M1 / M1L</a></li>
+                    <li><a href="#">Smartisan OS</a></li>
+                    <li><a href="#">欢喜云</a></li>
+                    <li><a href="..\Appcenter\index.html">应用下载</a></li>
+                    <li><a href="#">官方论坛</a></li>
+                </ul>
+            </div>
+      </div>
+      <div class="white">
+            <div class="white-main">
+                <ul>
+                    <li><a href="#">精选</a></li>
+                    <li><a href="#">手机</a></li>
+                    <li><a href="#">耳机 / 音箱</a></li>
+                    <li><a href="#">背壳 / 保护套</a></li>
+                    <li><a href="#">“情怀”背壳</a></li>
+                    <li><a href="#">其他周边</a></li>
+                    <li><a href="#">保修服务</a></li>
+                    <li><a href="..\all_goods\index.html">全部商品</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="white-hidden">
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!--主体部分的容器-->
+    <div id="container">
+
+      <!-- 这里是中间部分的背景div -->
+      <section id="center_back">
+
+        <!--购物清单的title-->
+        <div id="title">
+          <h3 id="gouwu_h2">
+            购物清单
+          </h3>
+        </div>
+
+        <!--商品信息头部-->
+        <div id="cart_table">
+
+          <span class="goods_info">
+            商品信息
+          </span>
+
+          <span class="goods_others">
+            操作
+          </span>
+
+          <span class="goods_others">
+            小计
+          </span>
+
+          <span class="goods_others">
+            数量
+          </span>
+
+          <span class="goods_others">
+            单价
+          </span>
+
+        </div>
+
+        <!--商品列表背景div -->
+        <div class="items" style="height: 500px;">
+
+            <!--每个商品所在行 -->
+            <div class="items_list">
+
+              <!--左上角的div，用于存放check-box-->
+              <div class="items_choose">
+                  <img src="img\checked.png" id="check_img_1_1"  style="display:block;"/>
+                  <img src="img\un_checked.png" id="check_img_1_2"  style="display:none;"/>
+              </div>
+
+              <!--产品图片    -->
+              <div class="items_1">
+                <img src="img\erji.jpg"  class="pic_1"/>
+              </div>
+
+              <!--产品名称-->
+              <div class="items_name">
+                <ul class="items_name_text">
+                  <li>
+                    <a href="http://www.smartisan.com/shop/#/item/1000230?id=100023002">FIIL Diva 智能蓝牙无线降噪耳机</a>
+                  </li>
+                  <li>
+                    耀石黑
+                  </li>
+                </ul>
+              </div>
+
+              <!--价格栏目-->
+              <div class="price_text">
+                <span>
+                  ￥ 999.00
+                </span>
+              </div>
+
+              <!--数量-->
+              <div class="items_num">
+
+                <!--减号图标-->
+                <span class="down">
+                	<img src="img\minus.jpg" />
+                </span>
+
+                <!--输入栏-->
+                <!-- <input type="text" class="num_input" style="width:34px"/> -->
+                <span class="num_input" style="width:10px">
+                	1
+                </span>
+
+                <!--加号图标-->
+                <span class="up">
+                  <img src="img/plus.jpg" />
+                </span>
+
+              </div>
+
+              <div class="little_price">
+                <span class="littel_price_span">
+                  <b>
+                    ￥ 999.00
+                  </b>
+                </span>
+              </div>
+              <!--删除操作-->
+              <div class="operation">
+                <span class="delete_img">
+                  <img src="img\delete.jpg" />
+                </span>
+              </div>
+
+            </div>
+
+            <!--copy 下来的第二个-->
+            <div class="items_list">
+
+              <!--左上角的div，用于存放check-box-->
+              <div class="items_choose">
+                  <img src="img\checked.png" id="check_img_2_1" style="display:block;"/>
+                  <img src="img\un_checked.png" id="check_img_2_2"  style="display:none;"/>
+              </div>
+
+              <!--产品图片    -->
+              <div class="items_1">
+                <img src="pic\book_1.jpg"  class="pic_1"/>
+              </div>
+
+              <!--产品名称-->
+              <div class="items_name">
+                <ul class="items_name_text">
+                  <li>
+                    <a href="http://www.smartisan.com/shop/#/item/1000230?id=100023002">《深泽直人》</a>
+                  </li>
+                  <li>
+                    平装版
+                  </li>
+                </ul>
+              </div>
+
+              <!--价格栏目-->
+              <div class="price_text">
+                <span>
+                  ￥ 199.00
+                </span>
+              </div>
+
+              <!--数量-->
+              <div class="items_num">
+
+                <!--减号图标-->
+                <span class="down">
+                  <img src="img\minus.jpg" />
+                </span>
+
+                <!--输入栏-->
+                <!-- <input type="text" class="num_input" style="width:34px"/> -->
+                <span class="num_input" style="width:10px">1</span>
+
+                <!--加号图标-->
+                <span class="up">
+                  <img src="img\plus.jpg" />
+                </span>
+
+              </div>
+
+              <div class="little_price">
+                <span class="littel_price_span">
+                  <b>
+                    ￥ 199.00
+                  </b>
+                </span>
+              </div>
+              <!--删除操作-->
+              <div class="operation">
+                <span class="delete_img">
+                  <img src="img\delete.jpg" />
+                </span>
+              </div>
+
+            </div>
+
+
+            <!--copy 下来的第三个-->
+            <div class="items_list">
+
+              <!--左上角的div，用于存放check-box-->
+              <div class="items_choose">
+                  <img src="img\checked.png" id="check_img_3_1" style="display:block;"/>
+                  <img src="img\un_checked.png" id="check_img_3_2" style="display:none;"/>
+              </div>
+
+              <!--产品图片    -->
+              <div class="items_1">
+                <img src="pic\red_erji.jpg"  class="pic_1"/>
+              </div>
+
+              <!--产品名称-->
+              <div class="items_name">
+                <ul class="items_name_text">
+                  <li>
+                    <a href="http://www.smartisan.com/shop/#/item/1000230?id=100023002">Smartisan S-100 半入耳式耳机</a>
+                  </li>
+                  <li>
+                    红色
+                  </li>
+                </ul>
+              </div>
+
+              <!--价格栏目-->
+              <div class="price_text">
+                <span>
+                  ￥ 99.00
+                </span>
+              </div>
+
+              <!--数量-->
+              <div class="items_num">
+
+                <!--减号图标-->
+                <span class="down">
+                  <img src="img\minus.jpg" />
+                </span>
+
+                <!--输入栏-->
+                <!-- <input type="text" class="num_input" style="width:34px"/> -->
+                <span class="num_input" style="width:10px">1</span>
+
+                <!--加号图标-->
+                <span class="up">
+                  <img src="img\plus.jpg" />
+                </span>
+
+              </div>
+
+              <div class="little_price">
+                <span class="littel_price_span">
+                  <b>
+                    ￥ 99.00
+                  </b>
+                </span>
+              </div>
+              <!--删除操作-->
+              <div class="operation">
+                <span class="delete_img">
+                  <img src="img\delete.jpg" />
+                </span>
+              </div>
+
+            </div>
+
+            <!--总选择页面背景-->
+            <div class="cart_buttom_bg" style="position: absolute;bottom: 0;left: 0;">
+
+              <!--全选div-->
+              <div class="all_checked">
+
+                <!--全选中-->
+                <div class="choose_all">
+
+                  <!--全选的小钩-->
+                  <span id="check_all_span">
+                    <img src="img\checked.png"  id="check_all_1" />
+                    <img src="img\un_checked.png"  id="check_all_2"/>
+                    <a id="check_all_text">全选</a>
+                  </span>
+
+                  <!--删除选中商品-->
+                  <a id="delete_goods" href="#">
+                    删除选中商品
+                  </a>
+
+                </div>
+
+              </div>
+
+              <!--底部结算页面-->
+              <div id="shipping">
+
+                <!--前面的文字-->
+                <div id="shipping_box">
+
+                  <!--选择的商品数目-->
+                  <div id="shipping_title">
+                    <h4>
+                      已选择<span id="pay_goods_num">3</span>件商品
+                    </h4>
+                    <h5>
+                      共计 <span id="pay_goods_num_total">3</span>件商品
+                    </h5>
+                  </div>
+
+                  <!--选择商品的价格-->
+                  <div class="all_price">
+                    <h4>
+                      应付总额：<span class="totoal_money">￥</span>
+                      <span class="total_money">1279</span>
+                    </h4>
+                    <h5>
+                      应付总额不含运费
+                    </h5>
+
+                  </div>
+
+                  <!--现在结算-->
+                  <div class="pay_now" style="float: right; margin-right: 20px;">
+                    <a href="#">现在结算</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+        </div>
+
+      </section>
+    </div>
+    <div class="footer">
+      <div class="footer-main">
+        <div class="siteinfo">
+          <div class="top">
+            <div class="left">
+              <ul>
+                <li>
+                  <h3>订单服务</h3>
+                  <ul>
+                    <li>购买指南</li>
+                    <li>支付方式</li>
+                    <li>送货政策</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>服务支持</h3>
+                  <ul>
+                    <li>售后服务</li>
+                    <li>维修门店</li>
+                    <li>零售门店</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>自助服务</h3>
+                  <ul>
+                    <li>热点咨询</li>
+                    <li>预约购买</li>
+                    <li>订单物流</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>媒体中心</h3>
+                  <ul>
+                    <li>新闻动态</li>
+                    <li>官方视频</li>
+                    <li>图片资源</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>关于公司</h3>
+                  <ul>
+                    <li>公司简介</li>
+                    <li>加入我们</li>
+                    <li>联系我们</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>关注我们</h3>
+                  <ul>
+                    <li>新浪微博</li>
+                    <li>官方微信</li>
+                    <li>官方贴吧</li>
+                  </ul>
+                </li>
+              </ul>
+
+            </div>
+            <div class="right">
+              <ul>
+                <li>400-619-0909</li>
+                <li>周一至周日 9:00-18:00（仅收市话费）</li>
+                <li><span class="smartisan-icon info-question">?</span>在线帮助</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="auth">
+          <p>Copyright © 2017, Smartisan Digital Co., Ltd. All Rights Reserved.北京锤子数码科技有限公司
+            <span>法律声明</span>
+            <span>隐私条款</span>
+            <span>开发者中心</span>
+          </p>
+
+          <div><span>京ICP备14041720号-1</span><span>京ICP证140622号</span><span>京公网安备11010502025474</span></div>
+        </div>
+      </div>
+
+  </div>
+
+
+    <script src="js\Smartisan_check_all.js"></script>
+      <script src="js\Smartisan_add_num.js"></script>
+  </body>
+
+</html>

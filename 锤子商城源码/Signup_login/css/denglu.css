@@ -1,0 +1,129 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+#background_con{
+	/*width: 1920px;*/
+	height: 800px;
+	/*background-color: gray;*/
+	background-image: url(../img/bg_9b9dcb65ff.png);
+	/*background-size: 100%;*/
+	/*background-repeat: repeat;*/
+}
+#mainbody{
+	height: 499px;
+	/*border-color: rgb(218,218,218);*/
+	border-radius: 10px;
+	background-color: white;
+	position: absolute;
+	top: 130px;
+	left: 562px;
+	border: 1px solid #696;padding: 60px 0;text-align: center; width: 423px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 0px 0px 10px;
+-moz-box-shadow: #666 0px 0px 10px;
+box-shadow: #666 0px 0px 10px;background: white;behavior: url(/PIE.htc);
+}
+#logo{
+	height: 150px;
+	width: 499px;
+	/*margin: 0 auto;*/
+	margin-top: -50px;
+	margin-left: -40px;
+}
+.word{
+	font: "微软雅黑";
+}
+#word1{
+	margin-top: -20px;
+}
+#input1{
+		margin-left: 35px;
+		margin-top: 46px;
+}
+#input2{
+	margin-left: 35px;
+		margin-top: 20px;
+}
+.input-group{
+	width: 460px;
+
+}
+#attention{
+	width: 460px;
+	margin-left: 50px;
+}
+#attention1{
+	margin-left: -15px;
+	float: left;
+}
+#sevendays{
+	font-size: 12px;
+}
+.href a:link{
+	text-decoration: none;
+}
+#attention2{
+	margin-left: -15px;
+	float:right;
+	margin-top: 12px;
+	font-size: 12px;
+}
+#attention3{
+	margin-right: 120px;
+	float: right;
+	margin-top: 12px;
+	font-size: 12px;
+}
+#submit{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 460px;
+	margin-left: 35px;
+}
+#hr{
+	
+	margin: 0 auto;
+	margin-top: 0px;
+	width: 420px;
+	height: 120px;
+}
+#word2{
+	margin-top: -100px;
+	width: 460px;
+	font-size: 12px;
+	margin-left: -150px;
+	float: left;
+}
+#word3{
+	margin-top: -100px;
+	width: 460px;
+	font-size: 12px;
+	float: left;
+	text-align: right;
+	margin-left: -70px;
+}
+#last{
+	width: 800px;
+	height: 100px;
+	margin-left: 370px;
+	/*background-color: gold;*/
+	position: relative;
+	top: 700px;
+	text-align: center;
+}
+.word_end{
+	font-size:12px;
+}
+.word_end a:li{
+	text-decoration: none;
+}
+#disanfang{
+	/*background-color: green;*/
+	/*margin-top: 900px;*/
+	float: left;
+	margin-top: -103px;
+	margin-left: 130px;
+}

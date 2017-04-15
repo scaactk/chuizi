@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/block.css">
+    <link rel="stylesheet" href="css/goods.css">
+    	<style>
+    		    .footer {
+    background: #fafafa;
+}
+
+.footer .main {
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .left ul>li {
+    width: 149px;
+    line-height: 1;
+    float: left;
+}
+
+.footer .left ul>li h3 {
+    color: #646464;
+    font-size: 12px;
+    padding: 0 0 14px;
+    font-weight: 400;
+}
+
+.footer .left ul>li li {
+    color: #c3c3c3;
+    font-size: 12px;
+    padding: 6px 0;
+}
+
+.footer .right {
+    float: right;
+}
+
+.footer .siteinfo {
+    height: 100px;
+    padding: 100px 0 32px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.footer .right ul li {
+    clear: both;
+    width: 241px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #c3c3c3;
+    text-align: right;
+}
+
+.footer .right ul li:nth-child(1) {
+    cursor: default;
+    color: #646464;
+    top: -2px;
+    position: relative;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.footer .right ul li:nth-child(2) {
+    margin-top: 5px;
+    right: -4px;
+    position: relative;
+}
+
+.footer .right ul li:nth-child(3) {
+    float: right;
+    width: 102px;
+    height: 32px;
+    line-height: 32px;
+    background: -webkit-linear-gradient(#fcfcfc, #f5f5f5);
+    background: linear-gradient(#fcfcfc, #f5f5f5);
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 0 0 26px;
+    margin-top: 8px;
+    text-align: left;
+    color: #5079d9;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.footer .smartisan-icon {
+    display: inline-block;
+    font-family: SmartisanIconFont;
+    vertical-align: middle;
+    width: 18px;
+    color: white;
+    background: #5079d9;
+    text-align: center;
+    border-radius: 9px;
+    line-height: 18px;
+}
+
+.footer a .smartisan-icon.info-question {
+    font-size: 18px;
+    margin-right: 6px;
+    top: -1px;
+    position: relative;
+}
+
+.footer .auth {
+    font-size: 12px;
+    margin-top: 51px;
+    clear: both;
+    padding: 8px 0 0;
+    padding-bottom: 40px;
+}
+
+.footer .auth>div {
+    padding: 8px 0 0;
+}
+
+.footer .auth div span {
+    margin-right: 20px;
+    color: #bdbdbd;
+    font-size: 12px;
+    height: 12px;
+    line-height: 1;
+}
+
+.footer .auth p {
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    color: #757575;
+}
+
+.footer .auth ul {
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    color: #757575;
+}
+
+.footer .auth ul li {
+    float: left;
+}
+
+.footer .auth p span {
+    color: #5079d9;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    text-decoration: none;
+    line-height: 12px;
+    padding: 1px 10px 0;
+    border-left: 1px solid #ccc;
+}
+
+.footer .auth p span:nth-child(1) {
+    margin: 0 0 0 12px;
+}
+    	</style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="black">
+            <div class="black-main">
+                <h1>
+                    <div>
+                    </div>
+                </h1>
+                <ul class="customer">
+                    <li><i class="fa fa-user fa-lg" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                        <div id="count">12</div>
+                    </li>
+                </ul>
+                <ul class="page-top-list">
+                    <li><a href="#">在线商城</a></li>
+                    <li><a href="#">Smartisan M1 / M1L</a></li>
+                    <li><a href="#">Smartisan OS</a></li>
+                    <li><a href="#">欢喜云</a></li>
+                    <li><a href="#">应用下载</a></li>
+                    <li><a href="#">官方论坛</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="white">
+            <div class="white-main">
+                <ul>
+                    <li><a href="#">精选</a></li>
+                    <li><a href="#">手机</a></li>
+                    <li><a href="#">耳机 / 音箱</a></li>
+                    <li><a href="#">背壳 / 保护套</a></li>
+                    <li><a href="#">“情怀”背壳</a></li>
+                    <li><a href="#">其他周边</a></li>
+                    <li><a href="#">保修服务</a></li>
+                    <li><a href="#">全部商品</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="white-hidden">
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-main">
+            <!--<section>
+                <div class="cover"></div>
+            </section>-->
+           
+        </div>
+        <section class="t-block">
+            <ul>
+                <li class="width-1">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/253X253 (2).jpg" width="206" height="206" /></li>
+                            </ul>
+                        </div>
+                        <h3>Smartisan M1</h3>
+                        <h6>超高配置、超高效率</h6>
+                        <div class="goods-price">
+                            <div class="out_price">
+                        <br /><br />
+                                ￥<span class="price">2499.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="width-1 getshadow">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/remen3.jpg" width="206" height="206" /></li>
+                            </ul>
+                        </div>
+                        <h3>Smartisan T2 </h3>
+                        <h6>全金属中框、正反面 2.5D 玻璃面板、全网通</h6>
+                        <div class="goods-point">
+                            <ul>
+                                <li style="background:#1f2022;" class="li_selected"></li>
+                            </ul>
+                        </div>
+                        <div class="goods-price">
+                            <div class="out_price">
+                                ￥<span class="price">1999.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                            </div>
+                        </div>
+                    </div>
+                </li><li class="width-1">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/remen12.jpg" width="206" height="206" /></li>
+                                <li><img src="pic/index/remen11.jpg" width="206" height="206" /></li>
+                            </ul>
+                        </div>
+                        <h3>FIIL Diva 智能蓝牙无线降噪耳机</h3>
+                        <h6>手势触控、智能启停</h6>
+                        <div class="goods-point">
+                            <ul>
+                                <li style="background:#E8E8EA" class="li_selected"></li>
+                                <li style="background:#2b2a2f"></li>
+                            </ul>
+                        </div>
+                        <div class="goods-price">
+                            <div class="out_price">
+                                ￥<span class="price">999.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="width-1">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/remen12.jpg" width="206" height="206" /></li>
+                                <li><img src="pic/index/remen11.jpg" width="206" height="206" /></li>
+                            </ul>
+                        </div>
+                        <h3>FIIL Diva Pro 全场景无线降噪耳机</h3>
+                        <h6>智能语音交互、高清无损本地存储播放</h6>
+                        <div class="goods-point">
+                            <ul>
+                                <li style="background:#E8E8EA" class="li_selected"></li>
+                                <li style="background:#2b2a2f"></li>
+                            </ul>
+                        </div>
+                        <div class="goods-price">
+                            <div class="out_price">
+                                ￥<span class="price">1499.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </li><li class="width-1">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/60X60.jpg" width="206" height="206" /></li>
+                            </ul>
+                        </div>
+                        <h3>道格拉斯发明鼠标获得专利</h3>
+                        <h6>坚果手机情怀背壳  第十七期 · 1970.11.17</h6>
+                        <div class="goods-price">
+                            <div class="out_price">
+                        <br /><br />
+                                ￥<span class="price">69.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </li><li class="width-1">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/253X253.jpg" width="206" height="206" /></li>
+                            </ul>
+                        </div>
+                        <h3>纽约现代艺术博物馆成立</h3>
+                        <h6>坚果手机情怀背壳  第十五期 · 1929.11.07</h6>
+                        <div class="goods-price">
+                            <div class="out_price">
+                            	<br /><br />
+                                ￥<span class="price">69.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </li><li class="width-1">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/253X253 (3).jpg" width="206" height="206" /></li>
+                                
+                            </ul>
+                        </div>
+                        <h3>世界上第一盏电灯诞生</h3>
+                        <h6>坚果手机情怀背壳 第十三期 · 1879.10.22手势触控、智能启停</h6>
+                        
+                        <div class="goods-price">
+                            <div class="out_price">
+                            <br /><br />
+                                ￥<span class="price">69.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </li><li class="width-1">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/253X253 (4).jpg" width="206" height="206" /></li>
+                                
+                            </ul>
+                        </div>
+                        <h3>告别宝丽来</h3>
+                        <h6>坚果手机情怀背壳 第十一期 · 2001.10.12</h6>
+                      
+                        <div class="goods-price">
+                            <div class="out_price">
+                            	<br /><br />
+                                ￥<span class="price">69.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </li><li class="width-1">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/guanfang3.jpg" width="206" height="206" /></li>
+                                
+                            </ul>
+                        </div>
+                        <h3>Smartisan 原装快充充电器</h3>
+                        <h6>24W 极速快充、兼容 QC3.0 和 PE+2.0</h6>
+                        <div class="goods-point">
+                            <ul>
+                                <li style="background:#E8E8EA" class="li_selected"></li>
+                               
+                            </ul>
+                        </div>
+                        <div class="goods-price">
+                            <div class="out_price">
+
+
+                                ￥<span class="price">69.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </li><li class="width-1">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/guanfang5.jpg" width="206" height="206" /></li>
+                                
+                            </ul>
+                        </div>
+                        <h3>Micro-USB 至 Type-C 转接头 × 2</h3>
+                        <h6>即插即用、全面兼容</h6>
+                        <div class="goods-point">
+                            <ul>
+                                <li style="background:#E8E8EA" class="li_selected"></li>
+                               
+                            </ul>
+                        </div>
+                        <div class="goods-price">
+                            <div class="out_price">
+                                ￥<span class="price">69.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="width-1 getshadow">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/remen2.jpg" width="206" height="206" /></li>
+                            </ul>
+                        </div>
+                        <h3>《深泽直人》</h3>
+                        <h6>首次面向中国读者介绍其作品</h6>
+                        <div class="goods-point">
+                            <ul>
+                            </ul>
+                        </div>
+                        <div class="goods-price">
+                            <div class="out_price">
+                                ￥<span class="price">999.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="width-1 getshadow">
+                    <div class="goods-block">
+                        <div class="goods-img">
+                            <ul>
+                                <li><img src="pic/index/remen4.jpg" width="206" height="206" /></li>
+                                <li><img src="pic/index/remen42.jpg" width="206" height="206" /></li>
+                                <li><img src="pic/index/remen43.jpg" width="206" height="206" /></li>
+                            </ul>
+                        </div>
+                        <h3>Smartisan S-100 半入耳式耳机</h3>
+                        <h6>卓越的 14.2mm 发音单元、三按键式线控</h6>
+                        <div class="goods-point">
+                            <ul>
+                                <li class="li_selected" style="background:#b73233;"></li>
+                                <li style="background:#3c3c3c;"></li>
+                                <li style="background:#898989;"></li>
+                            </ul>
+                        </div>
+                        <div class="goods-price">
+                            <div class="out_price">
+                                ￥<span class="price">99.00</span>
+                            </div>
+                            <div class="out_add">
+                                <span class="check_goods">查看详情</span>
+                                <span class="add_shop">加入购物车</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+        
+        
+        
+    </div>
+    <div class="footer">
+        <div class="main">
+            <div class="siteinfo">
+                <div class="top">
+                    <div class="left">
+                        <ul>
+                            <li>
+                                <h3>订单服务</h3>
+                                <ul>
+                                    <li>购买指南</li>
+                                    <li>支付方式</li>
+                                    <li>送货政策</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>服务支持</h3>
+                                <ul>
+                                    <li>售后服务</li>
+                                    <li>维修门店</li>
+                                    <li>零售门店</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>自助服务</h3>
+                                <ul>
+                                    <li>热点咨询</li>
+                                    <li>预约购买</li>
+                                    <li>订单物流</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>媒体中心</h3>
+                                <ul>
+                                    <li>新闻动态</li>
+                                    <li>官方视频</li>
+                                    <li>图片资源</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>关于公司</h3>
+                                <ul>
+                                    <li>公司简介</li>
+                                    <li>加入我们</li>
+                                    <li>联系我们</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>关注我们</h3>
+                                <ul>
+                                    <li>新浪微博</li>
+                                    <li>官方微信</li>
+                                    <li>官方贴吧</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li>400-619-0909</li>
+                            <li>周一至周日 9:00-18:00（仅收市话费）</li>
+                            <li><span class="smartisan-icon info-question">?</span>在线帮助</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="auth">
+                <p>Copyright © 2017, Smartisan Digital Co., Ltd. All Rights Reserved.北京锤子数码科技有限公司
+                    <span>法律声明</span>
+                    <span>隐私条款</span>
+                    <span>开发者中心</span>
+                </p>
+
+                <div><span>京ICP备14041720号-1</span><span>京ICP证140622号</span><span>京公网安备11010502025474</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/goods-item.js"></script>
+</body>
+
+</html>

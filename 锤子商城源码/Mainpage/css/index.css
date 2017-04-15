@@ -1,0 +1,242 @@
+/*统一样式修改*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, STHeiti, 华文细黑, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    background: #ededed;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    -moz-transition: all .15s ease-out;
+    -webkit-transition: all .15s ease-out;
+    -o-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+    text-decoration: none;
+}
+
+
+/*header部分*/
+
+.header .black {
+    background: #000;
+    height: 100px;
+    position: relative;
+    z-index: 30;
+}
+
+.black ul li {
+    float: left;
+}
+
+.black-main {
+    width: 1220px;
+    margin: auto;
+}
+
+.black-main h1 {
+    float: left;
+    margin-left: -5px;
+    padding: 25px 0 0 0;
+}
+
+.black-main h1 div {
+    background: url(../pic/index/logo_xb.png) no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.black-main ul {
+    float: right;
+    line-height: 28px;
+    margin: 36px 0 0 0;
+    height: 28px;
+    line-height: 28px;
+}
+
+.black-main ul.page-top-list {
+    margin-right: 23px;
+}
+
+.black-main ul.page-top-list li a.a-active {
+    color: #fff;
+}
+
+.black-main ul.page-top-list li a:hover {
+    color: #fff;
+}
+
+.black-main ul.page-top-list li a {
+    color: #c8c8c8;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+.black-main ul.customer {
+    box-sizing: border-box;
+    width: 158px;
+    position: relative;
+    float: right;
+    margin-top: 38px;
+}
+
+.black-main ul.customer::before {
+    background: #333;
+    background: rgba(255, 255, 255, .2);
+    content: " ";
+    height: 13px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+.black-main ul.customer li {
+    position: relative;
+    height: 20px;
+    display: block;
+    line-height: 20px;
+}
+
+.black-main ul.customer li:nth-child(1) {
+    margin-left: 40px;
+    width: 36px;
+}
+
+.black-main ul.customer li:nth-child(2) {
+    margin-left: 21px;
+    width: 51px;
+}
+
+#count {
+    display: inline;
+}
+
+.white {
+    padding: 31px 0;
+}
+
+.white-main {
+    margin: 0 auto;
+    width: 1220px;
+}
+
+.white-main ul {
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+}
+
+.white-main ul li {
+    float: left;
+    position: relative;
+}
+
+.white-main ul li:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 2px;
+    height: 2px;
+    background: #bdbdbd;
+}
+
+.white-main ul li:nth-child(1):before {
+    content: none;
+}
+
+.white-main ul li a {
+    padding-left: 10px;
+    color: #666;
+    padding: 0 20px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.white-main ul li a:hover,
+.white-main ul li a:active {
+    color: #6b95ea;
+}
+
+.white-main ul li:nth-child(1) a {
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.white-main ul li:nth-child(1) a:before {
+    content: none;
+}
+
+
+/* mian */
+
+.main-main {
+    margin: 0 auto;
+    width: 1222px;
+}
+
+.shadowul>ul {
+    margin: 30px auto 0;
+    background: #fff;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px -6px rgba(0, 0, 0, .1);
+    width: 1220px;
+}
+
+.shadowul>ul>li {
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #e6e6e6;
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    width: 305px;
+    height: 200px;
+}
+
+.shadowul>ul>li:hover {
+    box-shadow: 0 0 38px rgba(0, 0, 0, .08) inset;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+
+.shadowul>ul>li:nth-child(1) {
+    background: url(../pic/index/active1.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.shadowul>ul>li:nth-child(2) {
+    background: url(../pic/index/active2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.shadowul>ul>li:nth-child(3) {
+    background: url(../pic/index/active3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.shadowul>ul>li:nth-child(4) {
+    background: url(../pic/index/active4.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.bluebtn {
+    height: 360px !important;
+}

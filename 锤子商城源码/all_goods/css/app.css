@@ -1,0 +1,172 @@
+		    .bluebtn div.img {
+		        width: 90px;
+		        height: 90px;
+		        background-image: url(../pic/index/icon.png);
+		        margin: 72px auto 0;
+		        background-size: auto 90px;
+		        background-repeat: no-repeat;
+		    }
+		    
+		    .bluebtn:nth-child(2) .bluebefore div.img {
+		        background-position: -192px 0;
+		    }
+		    
+		    .bluebtn:nth-child(3) .bluebefore div.img {
+		        background-position: -96px 0;
+		    }
+		    
+		    .bluebtn:nth-child(4) .bluebefore div.img {
+		        background-position: -378px 0;
+		    }
+		    
+		    .bluebtn {
+		        font-size: 14px;
+		        text-align: center;
+		    }
+		    
+		    .bluebtn info {
+		        margin-top: 190px;
+		        position: absolute;
+		        z-index: 1;
+		        top: 0;
+		        width: 100%;
+		        padding: 0 10px;
+		        box-sizing: border-box;
+		    }
+		    
+		    .bluebtn info h6 {
+		        font-size: 16px;
+		        line-height: 1.2;
+		        color: #424242;
+		        overflow: hidden;
+		        white-space: nowrap;
+		        text-overflow: ellipsis;
+		    }
+		    
+		    .info p span {
+		        margin-top: 6px;
+		        font-size: 12px;
+		        line-height: 1.2;
+		        color: #B2B2B2;
+		        overflow: hidden;
+		        white-space: nowrap;
+		        text-overflow: ellipsis;
+		        display: block;
+		    }
+		    
+		    .bluebtn:hover .bluebefore {
+		        display: block;
+		    }
+		    
+		    .bluebtn:hover .bluebefore {
+		        display: none;
+		    }
+		    
+		    .bluebtn .download {
+		        display: none;
+		    }
+		    
+		    .bluebtn:hover .download {
+		        display: block;
+		    }
+		    
+		    .download .top {
+		        padding: 82px 0 15px;
+		    }
+		    
+		    .download .top span {
+		        display: block;
+		        box-sizing: border-box;
+		        height: 50px;
+		        width: 210px;
+		        margin: 0 auto;
+		        margin-bottom: 20px;
+		        text-align: center;
+		        vertical-align: middle;
+		        background-color: #6f97e5;
+		        background-image: -webkit-linear-gradient(#6f97e5, #527ed9);
+		        background-image: linear-gradient(#6f97e5, #527ed9);
+		        box-shadow: inset 0 1px 2px #7ea1e8;
+		        cursor: pointer;
+		        color: #fff;
+		        text-shadow: #4f70b3 0 -1px 0;
+		        border: 1px solid transparent;
+		        white-space: nowrap;
+		        padding: 10px 20px;
+		        font-size: 14px;
+		        line-height: 25px;
+		        border-radius: 6px;
+		    }
+		    
+		    .download .top span:hover {
+		        color: #fff;
+		        box-shadow: inset 0 1px 1px #7696de, inset 0 0 2px #627dca, inset 0 -2px 3px #5a77c7, inset 0 0 100px rgba(48, 77, 147, .4);
+		    }
+		    
+		    div.more {
+		        font-size: 12px;
+		        line-height: 1.2;
+		        display: inline-block;
+		        margin-top: 16px;
+		        color: #5079d9;
+		        cursor: pointer;
+		        -webkit-transition: all .2s ease-out;
+		        transition: all .2s ease-out;
+		        text-decoration: none;
+		    }
+		    
+		    .bluebtn .downbiimg .erwei {
+		        width: 120px;
+		        height: 120px;
+		        padding: 4px;
+		        margin: 64px auto 0;
+		        box-sizing: border-box;
+		        border: 1px solid #f7f7f7;
+		        background: url(../pic/index/erwei1.png) no-repeat;
+		        background-size: 100%;
+		    }
+		    
+		    .bluebtn .bluebefore {
+		        display: block;
+		    }
+		    
+		    .bluebtn:hover .bluebefore {
+		        display: none;
+		    }
+		    
+		    .bluebtn .downbiimg {
+		        display: none;
+		    }
+		    
+		    .bluebtn:hover .downbiimg {
+		        display: block;
+		    }
+		    
+		    .downbiimg p {
+		        margin-top: 35px;
+		        line-height: 1.2;
+		    }
+		    
+		    .downbiimg a {
+		        font-size: 12px;
+		        line-height: 1.2;
+		        display: inline-block;
+		        margin-top: 16px;
+		        color: #5079d9;
+		        cursor: pointer;
+		        -webkit-transition: all .2s ease-out;
+		        transition: all .2s ease-out;
+		        text-decoration: none;
+		    }
+		    
+		    .bluebtn:nth-child(2) .downbiimg .erwei {
+		        background: url(../pic/index/erwei1.png) no-repeat;
+		    }
+		    
+		    .bluebtn:nth-child(3) .downbiimg .erwei {
+		        background: url(../pic/index/erwei2.png) no-repeat;
+		    }
+		    
+		    .bluebtn:nth-child(4) .downbiimg .erwei {
+		        background: url(../pic/index/erwei3.png) no-repeat;
+		    }

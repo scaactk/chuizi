@@ -1,0 +1,145 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.person_a{
+	display: inline-block;
+}
+.car_a{
+	position:relative;
+}
+.car_hidden{
+	position:absolute;
+	margin-left: -300px;
+	border-radius: 8px;
+    overflow: hidden;
+	margin-top: 10px;
+	width:360px;
+	height:460px;
+	background-color: #fff;
+	display:none;
+}
+#count a{
+	display:block;
+}
+#count a:hover .car_hidden{
+	display:block;
+	position:relative;
+}
+.items_inner{
+	width:360px;
+	height:120px;
+	overflow: hidden;
+	border-bottom: 1px solid;
+  	border-color:#E0E0E0;
+  	background-color: #fafafa;
+}
+.items_left_pic{
+	float:left;
+	display: block;
+    width: 78px;
+    height: 78px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top:18px;
+    margin-left:20px;
+    border-top:1px solid;
+  	border-left:1px solid;
+  	border-right:1px solid;
+  	border-bottom: 1px solid;
+  	border-color:#E0E0E0;
+}
+.items_left_pic img{
+	width:80px;
+	height:80px;
+}
+.items_right_text{
+	color: #000;
+	float:left;
+	width:205px;
+	height:80px;
+	padding-top:20px;
+	padding-left:10px;
+}
+.items_right_text h4{
+	font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+}
+.items_right_text p{
+	font-size: 14px;
+    line-height: 14px;
+    color: #999;
+    margin-top: 18px;
+}
+.price_icon{
+	margin-top:10px;
+	color: #de4037;
+	display: inline-block;
+    font-weight: 700;
+}
+.price_num{
+	margin-top:10px;
+	margin-left:10px;
+	display: inline-block;
+	color: #de4037;
+	font-weight: 700;
+}
+.multiple{
+	margin-top:10px;
+	margin-left:10px;
+	display:inline-block;
+	color: #bbb;
+}
+.items_right_delete{
+	/*display:none;*/
+	float:right;
+	margin-right:20px;
+	margin-top:50px;
+}
+.car_to_car{
+	height:36px;
+	width:108px;
+  	border-radius: 8px;
+	text-align: center;
+	padding-top:15px;
+	margin-top:-50px;
+	margin-right:10px;
+	float:right;
+	color:#fff;
+	border: 1px solid #7794e8;
+    background-color: #88aff8;
+    background-image: linear-gradient(#88aff8,#7794e8);
+}
+.car_total{
+	height:81px;
+	width: 360px;
+	background-color: #fafafa;
+	padding:20px auto;
+}
+.car_total p{
+	margin-top:30px;
+	margin-left:20px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #c1c1c1;
+}
+.car_total h5{
+	display:block;
+	margin-left: 20px;
+	color: #333;
+    font-size: 14px;
+    font-weight: normal;
+}
+h5 .price_num{
+	font-size: 18px;
+    color: #de4037;
+    display: inline-block;
+    font-weight: 700;
+}

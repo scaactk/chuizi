@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/gerenzhongxin.css">
+    <link rel="stylesheet" href="css/block.css">
+    <link rel="stylesheet" href="css/goods.css">
+    <script src="js/goods-item.js"></script>
+    <script   src="js/jquery-1.11.3.js"></script>
+ 	<script src="js/gerenzhongxin.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="black">
+            <div class="black-main">
+                <h1>
+                    <div>
+                    </div>
+                </h1>
+                <ul class="customer">
+                    <li><i class="fa fa-user fa-lg" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                        <div id="count">12</div>
+                    </li>
+                </ul>
+                <ul class="page-top-list">
+                    <li><a href="..\Mainpage\index.html" class="a-active">在线商城</a></li>
+                    <li><a href="#">Smartisan M1 / M1L</a></li>
+                    <li><a href="#">Smartisan OS</a></li>
+                    <li><a href="#">欢喜云</a></li>
+                    <li><a href="..\Appcenter\index.html">应用下载</a></li>
+                    <li><a href="#">官方论坛</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="white">
+            <div class="white-main">
+                <ul>
+                    <li><a href="#">精选</a></li>
+                    <li><a href="#">手机</a></li>
+                    <li><a href="#">耳机 / 音箱</a></li>
+                    <li><a href="#">背壳 / 保护套</a></li>
+                    <li><a href="#">“情怀”背壳</a></li>
+                    <li><a href="#">其他周边</a></li>
+                    <li><a href="#">保修服务</a></li>
+                    <li><a href="../all_goods/index.html">全部商品</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="white-hidden">
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="mainbody1">
+        <div id="area1">
+        	<div id="person">
+        		
+        		<div id="person1">
+        			<img src="pic/index/QQ图片20170412094434.jpg" />
+        		</div>
+        	</div>
+        	<div onclick="openroot1()" id="area11" class="gongneng">
+        		我的订单
+        	</div>
+        	<div onclick="openroot2()" id="area12" class="gongneng">
+        		售后服务
+        	</div>
+        	<div onclick="openroot3()" id="area13" class="gongneng">
+        		我的优惠
+        	</div>
+        	<div onclick="openroot4()" id="area14" class="gongneng">
+        		账户资料
+        	</div>
+        	<div onclick="openroot5()" id="area15" class="gongneng">
+        		收货地址
+        	</div>
+        </div>
+        <div id="area2_first" class="area2">
+        	<div id="main">
+        		<div id="dingdantitle" class="gradient">
+        			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我的订单
+        			<div id="button">
+        				<button style="width: 120px; height: 40px;" class="button">最近三个月</button>
+        				<button style="width: 120px; height: 40px;" class="button">全部状态</button>&nbsp;&nbsp;
+        			</div>
+        			
+        		</div>
+        		<div id="dingdan1">
+        			<div id="dingdan1title" class="title">
+        				<table cellspacing="0">
+        					<tr>
+        						<td class="lie1">2017-04-12</td>
+        						<td class="lie2"> 订单号：<a href="#">170412756925178</a> </td>
+        						
+        						<td class="lie4">单价</td>
+        						<td class="lie5">数量</td>
+        						<td class="lie6">商品操作</td>
+        						<td class="lie7">应付总额</td>
+        						<td class="lie8"><a href="#">查看详情</a> </td>
+        					</tr>
+        				</table>
+        			</div>
+        			<div id="dingdan1detail" class="detail">
+        				<table cellspacing="0">
+        					<tr>
+        						<td class="lie1">
+        							<img  src="pic/index/gerenzhongxin1.png"/>
+        							<!--<div class="biankuang"></div>-->
+        						</td>
+        						<!--<div>
+        							
+        						</div>-->
+        						<td class="lie2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Micro-USB至 Type-C 转接头（白... </b><br /><br /> <span id="spanhah">商品编号：100022501</span></td>
+        						
+        						<td class="lie4"> ¥ 29.00</td>
+        						<td class="lie5">1</td>
+        						<td class="lie6"></td>
+        						<td class="lie7">¥ 113.00</td>
+        						<td class="lie8">  已关闭  </td>
+        					</tr>
+        					<tr>
+        						<td class="lie1"><img src="pic/index/gerenzhongxin2.png"/></td>
+        						<td class="lie2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Smartisan 原装快充充电器（白色...  </b> <br /> <br />    <span id="spanhah">  商品编号：100022601 </span> </td>
+        						
+        						<td class="lie4"> ¥ 69.00</td>
+        						<td class="lie5">1</td>
+        						<td class="lie6"></td>
+        						<td class="lie7"></td>
+        						<td class="lie8"></td>
+        					</tr>
+        				</table>
+        			</div>
+        		</div>
+        		<div id="dingdan2">
+        			<div id="dingdan2title" class="title">
+        				<table cellspacing="0">
+        					<tr>
+        						<td class="lie1">2017-04-11</td>
+        						<td class="lie2"> 订单号：<a href="#">170411776406443</a>  </td>
+        						
+        						<td class="lie4">单价</td>
+        						<td class="lie5">数量</td>
+        						<td class="lie6">商品操作</td>
+        						<td class="lie7">应付总额</td>
+        						<td class="lie8"><a href="#">查看详情</a> </td>
+        					</tr>
+        				</table>
+        			</div>
+        			<div id="dingdan2detail" class="detail">
+        				<table cellspacing="0">
+        					<tr>
+        						<td class="lie1">
+        							<img  src="pic/index/gerenzhongxin3.png"/>
+        							<!--<div class="biankuang"></div>-->
+        						</td>
+        						<!--<div>
+        							
+        						</div>-->
+        						<td class="lie2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Smartisan M1（5.15"，白 · 哑光...</b> <br /> <br /><span id="spanhah"> 商品编号：100021201</span> </td>
+        						
+        						<td class="lie4">¥ 2,499.00</td>
+        						<td class="lie5">1</td>
+        						<td class="lie6"></td>
+        						<td class="lie7">¥ 2,499.00</td>
+        						<td class="lie8">  已关闭  </td>
+        					</tr>
+        				</table>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        <div id="area2_second" class="area2">
+        	<div id="main_second" class="mainmain">
+        		<div id="dingdantitle_second" class="gradient">
+        			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售后服务
+        		</div>
+				<div class="kongbai">
+					您目前还没有可售后订单&nbsp;<a href="..\Mainpage\index.html">前往首页</a>
+				</div>
+			</div>
+        </div>
+        <div id="area2_third" class="area2">
+        	<div id="main_third" class="mainmain">
+        		<div id="dingdantitle_third" class="gradient">
+        			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我的优惠
+        		</div>
+				<div class="kongbai">
+					您目前还没有优惠&nbsp;<a href="..\Mainpage\index.html">前往首页</a>
+				</div>
+			</div>
+        </div>
+        <div id="area2_forth" class="area2">
+        	<div id="main_forth" class="mainmain">
+        		<div id="dingdantitle_forth" class="gradient">
+        			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账户资料
+        		</div>
+				<div class="kongbai">
+					您目前没有可更新账户资料&nbsp;<a href="..\Mainpage\index.html">前往首页</a>
+				</div>
+			</div>	
+        </div>
+        <div id="area2_fifth" class="area2">
+        	<div id="main_fifth" class="mainmain">
+        		<div id="dingdantitle_fifth" class="gradient">
+        			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;收货地址 
+        		</div>
+				<div class="kongbai">
+					您目前没有收货地址&nbsp;<a href="..\Mainpage\index.html">前往首页</a>
+				</div>
+			</div>
+        </div>
+    </div>
+        <div class="footer">
+        <div class="main">
+            <div class="siteinfo">
+                <div class="top">
+                    <div class="left">
+                        <ul>
+                            <li>
+                                <h3>订单服务</h3>
+                                <ul>
+                                    <li>购买指南</li>
+                                    <li>支付方式</li>
+                                    <li>送货政策</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>服务支持</h3>
+                                <ul>
+                                    <li>售后服务</li>
+                                    <li>维修门店</li>
+                                    <li>零售门店</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>自助服务</h3>
+                                <ul>
+                                    <li>热点咨询</li>
+                                    <li>预约购买</li>
+                                    <li>订单物流</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>媒体中心</h3>
+                                <ul>
+                                    <li>新闻动态</li>
+                                    <li>官方视频</li>
+                                    <li>图片资源</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>关于公司</h3>
+                                <ul>
+                                    <li>公司简介</li>
+                                    <li>加入我们</li>
+                                    <li>联系我们</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>关注我们</h3>
+                                <ul>
+                                    <li>新浪微博</li>
+                                    <li>官方微信</li>
+                                    <li>官方贴吧</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li>400-619-0909</li>
+                            <li>周一至周日 9:00-18:00（仅收市话费）</li>
+                            <li><span class="smartisan-icon info-question">?</span>在线帮助</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="auth">
+                <p>Copyright © 2017, Smartisan Digital Co., Ltd. All Rights Reserved.北京锤子数码科技有限公司
+                    <span>法律声明</span>
+                    <span>隐私条款</span>
+                    <span>开发者中心</span>
+                </p>
+
+                <div><span>京ICP备14041720号-1</span><span>京ICP证140622号</span><span>京公网安备11010502025474</span></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

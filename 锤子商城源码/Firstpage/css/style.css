@@ -1,0 +1,71 @@
+body {
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	font-family:'Josefin Slab',Arial,sans-serif;
+}
+.container {
+	position:relative;
+}
+a {
+	color:#fff;
+	text-decoration:none;
+}
+.content {
+	position:relative;
+	margin-top:-100px;
+	margin-left:1300px;
+}
+h1 {
+	/*font-family:"微软雅黑";*/
+	text-shadow: -5px 5px 30px #fff;
+	margin-top:30px;
+	padding:50px;
+	font-size:62px;
+	color:#fff;
+	text-align:left;
+	font-weight:400;
+	text-align:left;
+}
+h1 span {
+	text-shadow: -5px 5px 10px #eeb213;
+	font-size:42px;
+	color:#ccc;
+	padding-top:10px;
+}
+
+.bmenu{
+    padding-left:30px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.bmenu li{
+    font-size: 50px;
+    display: block;
+}
+.bmenu li a{
+	text-shadow: 2px 2px 10px #eeb213;
+	background: rgba(0,0,0,0.2);
+	filter: blur(2px);
+	display: block;
+	text-transform: uppercase;
+	color: #eeb213;
+	padding: 5px 20px;
+	margin: 2px;
+	letter-spacing: 2px;
+	transition: all 0.2s linear;
+}
+.bmenu:hover li a{
+	filter: blur(2px);
+	text-shadow: 5px 5px 15px #eeb213;
+	color: #eeb213;
+	background: rgba(0,0,0,0.4);
+}
+.bmenu li a:hover{
+	color: #fec223;
+	filter: blur(0);
+	background: rgba(0,0,0,1);
+	text-shadow: 1px 1px 5px #fec223;
+}

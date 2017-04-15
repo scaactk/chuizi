@@ -1,0 +1,135 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+#background_con{
+	/*width: 1920px;*/
+	height: 800px;
+	/*background-color: gray;*/
+	background-image: url(../img/bg_9b9dcb65ff.png);
+	/*background-size: 100%;*/
+	/*background-repeat: repeat;*/
+}
+#mainbody{
+	height: 499px;
+	/*border-color: rgb(218,218,218);*/
+	border-radius: 10px;
+	background-color: white;
+	position: absolute;
+	top: 130px;
+	left:562px;
+	border: 1px solid #696;padding: 60px 0;text-align: center; width: 423px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: #666 0px 0px 10px;
+	-moz-box-shadow: #666 0px 0px 10px;
+	box-shadow: #666 0px 0px 10px;background: white;behavior: url(/PIE.htc);
+}
+#area1{
+	width: 421px;
+	height: 60px;
+	background-color: #F6F6F6;         
+	margin-top: -60px;
+	border-radius: 8px 8px 0 0;
+	border-bottom:1px solid;
+	border-bottom-color: #C0C0C0;
+	font: "微软雅黑";
+	font-size: 23px;
+	/*text-align: center;*/
+	line-height: 60px;
+}
+#area2{
+	margin-top: 30px;
+	width: 421px;
+	height: 280px;
+/*	background-color: green;*/
+	/*margin-top: -30px;*/
+	/*margin-top: 60px;*/
+}
+#sousuo1{
+	
+	margin-left: 40px;
+	margin-top: 0px;
+	width: 400px;
+	height: 45px;
+}
+#sousuo2{
+	margin-left: 40px;
+	margin-top: 15px;
+	width: 200px;
+	height: 45px;
+	float: left;
+}
+#sousuo3{
+	margin-left: 40px;
+	position: relative;
+	top: 15px;
+	width: 400px;
+	height: 45px;
+}
+#sousuo4{
+	margin-left: 40px;
+	position: relative;
+	top: 30px;
+	width: 420px;
+	height: 45px;
+}
+#button{
+	width: 110px;
+	height: 45px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 15px;
+}
+/*#sousuo2{
+	float: left;
+	width: 100px;
+	height: 50px;
+}*/
+#area3{
+	width: 421px;
+	height: 30px;
+	/*position: relative;*/
+	margin-top: -40px;
+	margin-left: -55px;
+	/*background-color: yellow;*/
+	font-size: 12px;
+	/*margin-top: 60px;*/
+}
+#area4{
+	width: 421px;
+	height: 80px;
+	/*background-color: aqua;*/
+	margin-left: 40px;
+	/*margin-top: 60px;*/
+}
+#hr{
+	height: 20px;
+	width: 340px;
+	margin-left: 40px;
+	margin-top: -20px;
+	/*font-color: #DADADA;*/
+}
+#last{
+	/*background-color: green;*/
+	margin-top: 700px;
+	float: left;
+	/*margin-top: -103px;*/
+	margin-left: 450px;
+	text-align: center;
+}
+.word_end{
+	font-size:12px;
+}
+.word_end a:li{
+	text-decoration: none;
+#span3{
+	color: red;
+	}
+#span2{
+	color: red;
+	}
+#span1{
+	color: red;
+	}

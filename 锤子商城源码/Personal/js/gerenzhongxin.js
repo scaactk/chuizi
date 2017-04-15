@@ -1,0 +1,125 @@
+var a,b,c,d,e;
+function openroot1(){	
+			document.getElementById("area2_first").style.display="block";
+			document.getElementById("area2_second").style.display="none";
+			document.getElementById("area2_third").style.display="none";
+			document.getElementById("area2_forth").style.display="none";
+			document.getElementById("area2_fifth").style.display="none";
+			document.getElementById("area11").style.backgroundColor="#98AFEE";
+			document.getElementById("area11").style.color="white"
+			a=1;
+			
+}
+				
+function openroot2(){	
+			document.getElementById("area2_first").style.display="none";
+			document.getElementById("area2_second").style.display="block";
+			document.getElementById("area2_third").style.display="none";
+			document.getElementById("area2_forth").style.display="none";
+			document.getElementById("area2_fifth").style.display="none";
+			document.getElementById("area12").style.backgroundColor="#98AFEE";
+			document.getElementById("area12").style.color="white"
+			b=1;
+}
+function openroot3(){	
+			document.getElementById("area2_first").style.display="none";
+			document.getElementById("area2_second").style.display="none";
+			document.getElementById("area2_third").style.display="block";
+			document.getElementById("area2_forth").style.display="none";
+			document.getElementById("area2_fifth").style.display="none";
+			document.getElementById("area13").style.backgroundColor="#98AFEE";
+			document.getElementById("area13").style.color="white"
+			c=1;
+}
+function openroot4(){	
+			document.getElementById("area2_first").style.display="none";
+			document.getElementById("area2_second").style.display="none";
+			document.getElementById("area2_third").style.display="none";
+			document.getElementById("area2_forth").style.display="block";
+			document.getElementById("area2_fifth").style.display="none";
+			document.getElementById("area14").style.backgroundColor="#98AFEE";
+			document.getElementById("area14").style.color="white"
+			d=1;
+}
+function openroot5(){	
+			document.getElementById("area2_first").style.display="none";
+			document.getElementById("area2_second").style.display="none";
+			document.getElementById("area2_third").style.display="none";
+			document.getElementById("area2_forth").style.display="none";
+			document.getElementById("area2_fifth").style.display="block";
+			document.getElementById("area15").style.backgroundColor="#98AFEE";
+			document.getElementById("area15").style.color="white"
+			e=1;
+}
+$(function(){
+				//移入事件
+				$("#area11").mouseover(function(){
+					$("#area11").css("color","white");
+					$("#area11").css("background-color","#98AFEE");
+				});
+				//移出事件
+				if(a!=1){
+				$("#area11").mouseout(function(){
+					$("#area11").css("color","#666666");
+					$("#area11").css("background-color","#FFFFFF");
+				});
+				}
+		});
+$(function(){
+				//移入事件
+				$("#area12").mouseover(function(){
+					$("#area12").css("color","white");
+					$("#area12").css("background-color","#98AFEE");
+				});
+				//移出事件
+				if(b!=1){
+				$("#area12").mouseout(function(){
+					$("#area12").css("color","#666666");
+					$("#area12").css("background-color","#FFFFFF");
+				});
+				}
+		});
+$(function(){
+				//移入事件
+				$("#area13").mouseover(function(){
+					$("#area13").css("color","white");
+					$("#area13").css("background-color","#98AFEE");
+				});
+				//移出事件
+				if(c!=1){
+				$("#area13").mouseout(function(){
+					$("#area13").css("color","#666666");
+					$("#area13").css("background-color","#FFFFFF");
+				});
+				}
+		});
+$(function(){
+				//移入事件
+				$("#area14").mouseover(function(){
+					$("#area14").css("color","white");
+					$("#area14").css("background-color","#98AFEE");
+				});
+				//移出事件
+				if(d!=1){
+				$("#area14").mouseout(function(){
+					$("#area14").css("color","#666666");
+					$("#area14").css("background-color","#FFFFFF");
+				});
+				}
+		});
+$(function(){
+				//移入事件
+				$("#area15").mouseover(function(){
+					$("#area15").css("color","white");
+					$("#area15").css("background-color","#98AFEE");
+				});
+				//移出事件
+				if(e!=1){
+				$("#area15").mouseout(function(){
+					$("#area15").css("color","#666666");
+					$("#area15").css("background-color","#FFFFFF");
+				});
+				}
+		});
+		
+		

@@ -1,0 +1,23 @@
+#fix-main {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 100;
+}
+
+#fix-main .black {
+    display: none;
+}
+
+#fix-main .white {
+    z-index: 21;
+    -webkit-transition: background .6s cubic-bezier(.165, .84, .44, 1) .6s, padding .3s cubic-bezier(.165, .84, .44, 1), -webkit-transform .3s cubic-bezier(.165, .84, .44, 1);
+    transition: background .6s cubic-bezier(.165, .84, .44, 1) .6s, padding .3s cubic-bezier(.165, .84, .44, 1), transform .3s cubic-bezier(.165, .84, .44, 1);
+    background: #f7f7f7;
+    border-bottom: 1px solid #dadada;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
+    background-image: -webkit-linear-gradient(#fff, #f1f1f1);
+    background-image: linear-gradient(#fff, #f1f1f1);
+}
